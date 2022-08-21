@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../100problems/100jsproject/proj13VideoPlayer"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "randomMovements"
+	}
+}
