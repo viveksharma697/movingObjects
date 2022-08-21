@@ -1,0 +1,52 @@
+div.a {
+    width: 150px;
+    height: 150px;
+    background-image: url(/mageedit_5_7054169775_adobe_express.svg);
+    background-size: contain;
+    position: fixed;
+
+}
+
+div.b {
+    width: 150px;
+    height: 150px;
+    background-image: url(/mageedit_5_7054169775_adobe_express.svg);
+    background-size: contain;
+    /* background-color: blue; */
+    position: fixed;
+
+}
+
+div.c {
+    width: 150px;
+    height: 150px;
+    background-image: url(/mageedit_5_7054169775_adobe_express.svg);
+    background-size: contain;
+    position: fixed;
+
+}
+
+div.d {
+    width: 150px;
+    height: 150px;
+    background-image: url(/mageedit_5_7054169775_adobe_express.svg);
+    background-size: contain;
+    /* background-color: yellow; */
+    position: fixed;
+
+}
+
+div.floating p {
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 40px;   
+    position: absolute;
+    font-size: 20px;
+    /* color: blue; */
+}
+
+div.floating:hover {
+    cursor: pointer;
+    transform: rotate3d();
+}
