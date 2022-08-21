@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
     <title>Message</title>
 </head>
 <body>
-    <h1>Someone wants to talk to you....!!!</h1>
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>Answer the question, if you want to get rewards...</span>
+        </div>
+        <div class="info_list">
+            <div class="info">You will have only <span>15 seconds</span> per each question.</div>
+        </div> 
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <div class="quiz">
+        <header>
+            <div class="title">Answer the question</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>On which date, the Independance Day of India is celebrated ?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>26 Jan</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>15 Aug</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <footer><button class="next_btn">Finish</button></footer>
+    </div>
 </body>
 </html>
