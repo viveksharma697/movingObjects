@@ -1,59 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
+    <title>Question</title>
     <link rel="stylesheet" href="style2.css">
-    <title>Message</title>
 </head>
-<body>
-    <div class="start_btn"><button>Start Quiz</button></div>
 
-    <div class="info_box">
-        <div class="info_title">
-            <span>Answer the question, if you want to get rewards...</span>
-        </div>
-        <div class="info_list">
-            <div class="info">You will have only <span>15 seconds</span> per each question.</div>
-        </div> 
-        <div class="buttons">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
+<body>
+    <div class="main">
+        <div id="box">
+            <h2 id="quesBox">This is the question...</h2>
+            <div class="row">
+                <input class="options" type="radio" id="option1" value="a" name="option">
+                <label for="">a) Option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" type="radio" id="option2" value="b" name="option">
+                <label for="">b) Option 2</label>
+            </div>
+            <div class="row">
+                <input class="options" type="radio" id="option3" value="c" name="option">
+                <label for="">c) Option 3</label>
+            </div>
+            <div class="row">
+                <input class="options" type="radio" id="option4" value="d" name="option">
+                <label for="">d) Option 4</label>
+            </div>
+            <footer>
+                <button id="btn" onclick="submitQuiz()">Submit</button>
+            </footer>
         </div>
     </div>
-    <div class="quiz">
-        <header>
-            <div class="title">Answer the question</div>
-            <div class="timer">
-                <div class="time_text">Time Left</div>
-                <div class="timer_sec">15</div>
-            </div>
-        </header>
-        <section>
-            <div class="que_text">
-                <span>On which date, the Independance Day of India is celebrated ?</span>
-            </div>
-            <div class="option_list">
-                <div class="option">
-                    <span>26 Jan</span>
-                    <div class="icon tick"><i class="fas fa-check"></i></div>
-                </div>
-                <div class="option">
-                    <span>15 Aug</span>
-                    <div class="icon tick"><i class="fas fa-check"></i></div>
-                </div>
-            </div>
-        </section>
-
-        <footer><button class="next_btn">Finish</button></footer>
-    </div>
-=======
-    <title>Message</title>
-</head>
-<body>
-    <h1>Someone wants to talk to you....!!!</h1>
->>>>>>> 85676ecb4de369c9f6c8aea4c7e85627573fa2c7
+    <script src="/script2.js"></script>
 </body>
 </html>

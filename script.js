@@ -26,7 +26,7 @@ function animateDiv(myclass) {
 }
 
 $(".floating").click(function() {
-  let reward = confirm("Congratulations ...!!! If you want to get the money, please click 'OK' and watch a vedio.");
+  let reward = confirm(`Congratulations ...!!! If you want to get money, please answer all the 3 questions....`);
 
   if (reward) {
     openPage('msg.html');
